@@ -36,6 +36,7 @@
         - android-studio
         - backblaze
         - bitwarden
+        - clipy
         - datagrip
         - docker
         - dropbox
@@ -50,8 +51,9 @@
         - karabiner-elements
         - kindle
         - lens
+        - lulu
         - licecap
-        - ngrokz
+        - ngrok
         - notion
         - postman
         - rectangle
@@ -65,10 +67,11 @@
         - textmate
         - thunderbird
         - tuple
+        - tuxera-ntfs
         - vanilla
         - visual-studio-code
         - vlc
-        - zoom
+        - brew install --cask zoho-mail
         - zoom
 
     - name: 'Install homebrew packages'
