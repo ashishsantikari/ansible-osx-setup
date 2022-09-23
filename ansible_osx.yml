@@ -31,6 +31,7 @@
       ignore_errors: yes
       with_items:
         - 1password
+        - alfred
         - android-sdk
         - android-studio
         - backblaze
