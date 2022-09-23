@@ -133,12 +133,14 @@
         update_homebrew: yes
 
     - name: 'Install from Mac app store'
-      shell: mas install {{ item }}
-      with_items:
+      mas_installed_app_ids:
         - 497799835 # xcode
         - 1444383602 # good notes
         - 526298438 # light screenshot
         - 1410709951 # smart countdown timer
+
+      include_role:
+        name: geerlingguy.mac.mas
 
     - name: Get the path to ZSH
       become: false
